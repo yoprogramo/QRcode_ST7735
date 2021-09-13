@@ -1,0 +1,24 @@
+{
+  "name": "QRcode_ST7735",
+  "version": "1.0.0",
+  "keywords": "qr code, ESP32, ESP8266, TFT, ST7735",
+  "description": "QR code generation for TFT displays",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/yoprogramo/QRcode_ST7735"
+  },
+  "authors":
+  [
+    {
+        "name": "Jose Antonio Espinosa",
+        "email": "yoprogramo@gmail.com",
+        "url": "https://yoprogramo.com"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ]
+}
