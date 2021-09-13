@@ -34,12 +34,15 @@ Add as dependencies:
 #include <SPI.h>
 #include <qrcode_st7735.h>
 
+#define TFTMODEL INITR_144GREENTAB
+
 Adafruit_ST7735 display = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 QRcode_ST7735 qrcode (&display);
 
 
 void setup() {
 
+    display.initR(TFTMODEL);
     qrcode.init();
     qrcode.create("Hello world.");
 
