@@ -4,7 +4,7 @@ Subclass that you can use jointly with https://github.com/yoprogramo/QRcodeDispl
 
 To use it:
 
-h2. In platform.io: 
+## In platform.io: 
 
 Add as dependencies:
 
@@ -13,7 +13,7 @@ Add as dependencies:
  * adafruit/Adafruit GFX Library
  * adafruit/Adafruit ST7735 and ST7789 Library
 
- h2. In arduino ide 
+ ## In arduino ide 
  
  Open Library Manager (menu Sketch > Include Library > Manage Libraries…) then install the following libraries:
 
