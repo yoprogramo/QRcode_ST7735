@@ -9,10 +9,8 @@ QRcode_ST7735::QRcode_ST7735(Adafruit_ST7735 *display) {
 
 
 void QRcode_ST7735::init() {
-    //display->init();
     this->screenwidth = display->width();
     this->screenheight = display->height();
-    display->setRotation(1);
     display->fillScreen(ST77XX_WHITE);
     int min = screenwidth;
     if (screenheight<screenwidth)
