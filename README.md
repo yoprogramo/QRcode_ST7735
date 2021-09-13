@@ -4,19 +4,23 @@ Subclass that you can use jointly with https://github.com/yoprogramo/QRcodeDispl
 
 To use it:
 
-* In platform.io: add as dependencies:
+h2. In platform.io: 
 
- ** yoprogramo/QRcodeDisplay
- ** yoprogramo/QRcode_ST7735
- ** adafruit/Adafruit GFX Library
- ** adafruit/Adafruit ST7735 and ST7789 Library
+Add as dependencies:
 
- * In arduino ide open Library Manager (menu Sketch > Include Library > Manage Libraries…) then install the following libraries:
+ * yoprogramo/QRcodeDisplay
+ * yoprogramo/QRcode_ST7735
+ * adafruit/Adafruit GFX Library
+ * adafruit/Adafruit ST7735 and ST7789 Library
 
- ** QRcodeDisplay
- ** QRcode_ST7735
- ** Adafruit GFX Library
- ** adafruit/Adafruit ST7735 and ST7789 Library
+ h2. In arduino ide 
+ 
+ Open Library Manager (menu Sketch > Include Library > Manage Libraries…) then install the following libraries:
+
+ * QRcodeDisplay
+ * QRcode_ST7735
+ * Adafruit GFX Library
+ * adafruit/Adafruit ST7735 and ST7789 Library
 
  Creating a QRcode is just as simple as:
 
