@@ -34,10 +34,5 @@ void QRcode_ST7735::drawPixel(int x, int y, int color) {
     } else {
         color = ST77XX_WHITE;
     }
-    display->drawPixel(x,y,color);
-    if (this->multiply>1) {
-        display->drawPixel(x+1,y,color);
-        display->drawPixel(x+1,y+1,color);
-        display->drawPixel(x,y+1,color);
-    }
+    display->fillRect(x,y,multiply,multiply,color);
 }
